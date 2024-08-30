@@ -1,3 +1,18 @@
+@font-face {
+    font-family: Modeska;
+    src: url('./assets/fonts/modeska.ttf');
+}
+
+@font-face {
+    font-family: LemonMilk;
+    src: url('./assets/fonts/lemonmilk.otf');
+}
+
 body{
 	background-image: url("./assets/bkg.png");
+}
+
+#container-welcome-text{
+	h1{font-family: LemonMilk;}
+	p{font-family: Modeska;}
 }
